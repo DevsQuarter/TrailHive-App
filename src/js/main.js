@@ -1,4 +1,5 @@
 $(document).ready(() => {
+  console.log(window);
   // Header
   $('#page-header').load('src/partials/header.html');
   // Hero
@@ -7,8 +8,10 @@ $(document).ready(() => {
   $('#organizations').load('src/partials/organizations.html');
   // Features
   $('#features').load('src/partials/features.html');
-  // Downloads
-  $('#downloads').load('src/partials/downloads.html');
+  // ExplorerImage
+  $('#explorerImage').load('src/partials/explorerImage.html');
+  // Testimonial
+  $('#testimonial').load('src/partials/testimonial.html');
   // Footer
   $('#page-footer').load('src/partials/footer.html');
 });
