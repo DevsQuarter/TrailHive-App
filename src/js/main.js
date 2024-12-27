@@ -1,5 +1,4 @@
 $(document).ready(() => {
-  console.log(window);
   // Header
   $('#page-header').load('src/partials/header.html');
   // Hero
