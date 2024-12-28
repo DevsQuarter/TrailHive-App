@@ -1,8 +1,5 @@
 .features {
     background-color: rgba(217, 239, 222, 1);
-
-    /* justify-content: center; */
-    /* width: 1440px; */
     border-radius: 40px;
 }
 
@@ -13,21 +10,14 @@
 .features-wrapper .features-wrapper-content {
     display: flex;
     flex-direction: row;
-
-    justify-content: center;
+    justify-content: space-between;
     gap: 80px;
-
 }
 
 .features-wrapper .features-title {
     display: flex;
     flex-direction: column;
-    /* gap: 24px; */
-    width: 240px;
-    /* padding-top: 64px; */
-    /* padding: 0px; */
-    height: 198px;
-
+    gap: 24px;
 }
 
 .features-wrapper .features-title h5 {
@@ -37,6 +27,7 @@
     letter-spacing: 0.1em;
     text-align: left;
     text-transform: uppercase;
+    margin: 0;
 }
 
 .features-title h4 {
@@ -45,6 +36,7 @@
     line-height: 45.6px;
     letter-spacing: 0.03em;
     text-align: left;
+    margin: 0;
 }
 
 .features-title button {
