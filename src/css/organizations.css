@@ -1,0 +1,55 @@
+.organizations-wrapper {
+    background-image: url(../images/organizations-bckgrnd.png);
+    color: rgba(217, 239, 222, 1);
+    padding: 60px 120px;
+}
+
+.organizations-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 1020px;
+}
+
+.organizations-wrapper .organizations-text h5 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.organizations-text .organizations-text-paragragh {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.8px;
+    letter-spacing: -2px;
+    text-align: left;
+}
+
+.organizations-text p {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+}
+
+.organizations-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.organizations-icons-text {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+}
+
+.organizations-icons-ul {
+    display: flex;
+    gap: 60px;
+}
