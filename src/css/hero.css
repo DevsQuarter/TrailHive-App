@@ -1,0 +1,15 @@
+#hero {
+    height: 574px;
+    box-sizing: border-box;
+    background-color: #232E26;
+}
+
+#hero .hero-container {
+    padding-inline: 120px;
+    display: flex;
+}
+
+#hero .hero-container .content {
+    display: flex;
+    flex-direction: column;
+}
