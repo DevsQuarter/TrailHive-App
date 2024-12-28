@@ -1,7 +1,7 @@
 .organizations-wrapper {
     background-image: url(../images/organizations-bckgrnd.png);
     color: rgba(217, 239, 222, 1);
-    padding: 60px 120px;
+    padding: 64px 120px;
 }
 
 .organizations-text {
@@ -52,4 +52,5 @@
 .organizations-icons-ul {
     display: flex;
     gap: 60px;
+    list-style: none;
 }
