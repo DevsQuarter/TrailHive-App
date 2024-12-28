@@ -1,13 +1,17 @@
 #page-header {
-    background-color: #D9EFDE;
     height: 72ox;
     box-sizing: border-box;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
+
+    background-color: #232E26;
+    width: 100%;
     position: sticky;
+    top: 0;
 }
 
 #page-header .header-container {
+    background-color: #D9EFDE;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
     padding-inline: 120px;
     display: flex;
     justify-content: space-between;
