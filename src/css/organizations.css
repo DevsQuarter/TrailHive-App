@@ -1,7 +1,11 @@
+ul {
+    list-style: none;
+}
+
 .organizations-wrapper {
     background-image: url(../images/organizations-bckgrnd.png);
     color: rgba(217, 239, 222, 1);
-    padding: 60px 120px;
+    padding: 64px 120px;
 }
 
 .organizations-text {
