@@ -60,6 +60,11 @@
     height: 37px;
 }
 
+.features-title button:hover {
+    background-color: rgba(217, 239, 222, 1);
+    color: rgba(35, 46, 38, 1);
+}
+
 .features-wrapper .features-images {
     display: flex;
     flex-direction: row;
