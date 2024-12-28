@@ -1,0 +1,77 @@
+#page-header {
+    background-color: #D9EFDE;
+    height: 72ox;
+    box-sizing: border-box;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    position: sticky;
+}
+
+#page-header .container {
+    padding-inline: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#page-header .container .logo {
+    display: flex;
+    gap: 2px;
+    text-decoration: none;
+}
+
+#page-header .container .logo .logo-text {
+    font-size: 22px;
+    color: #232E26;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+}
+
+
+#page-header .container .navbar {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+#page-header .container .navbar .navbar-menu-list {
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+    align-items: center;
+}
+
+#page-header .container .navbar .navbar-menu-list .navbar-menu-item {
+    padding: 24px 12px;
+}
+
+#page-header .container .navbar .navbar-menu-list .navbar-menu-item .navbar-menu-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    color: #232E26;
+}
+
+#page-header .container .navbar .navbar-menu-list .navbar-menu-item.focused,
+#page-header .container .navbar .navbar-menu-list .navbar-menu-item:hover,
+#page-header .container .navbar .navbar-menu-list .navbar-menu-item:focus {
+    padding: 8px 20px;
+    border: 1px solid #232E26;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#page-header .container .navbar .navbar-btn {
+    padding: 8px 20px;
+    color: #D9EFDE;
+    background-color: #232E26;
+    border: 1px solid #232E26;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
