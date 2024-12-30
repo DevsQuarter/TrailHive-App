@@ -24,5 +24,9 @@ body {
 }
 
 ul {
-    list-style: nones;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
