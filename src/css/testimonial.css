@@ -1,0 +1,50 @@
+.learn-more {
+  background-color: #d9efde;
+  border: 1px;
+  border-radius: 50px;
+  width: 121px;
+  height: 37px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.testimonial-container {
+  background-image: url(../images/testimonial.png);
+  display: flex;
+  justify-content: center;
+
+  /* width: 1140px;
+  height: 547px;*/
+  flex-direction: column;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 120px;
+  gap: 24px;
+}
+.test-h2 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.3em;
+  color: #d9efde;
+  margin: 0;
+}
+.test-p {
+  font-weight: 700;
+  width: 780px;
+  letter-spacing: 0.032em;
+  color: #d9efde;
+  font-size: 50px;
+  margin: 0;
+}
+.other-p {
+  color: #d9efde;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+.learn-more:hover {
+  background: #232e26;
+  color: #d9efde;
+}
